@@ -91,12 +91,12 @@ Pod::Spec.new do |s|
   #  Not including the public_header_files will make all headers public.
   #
 
-  s.source_files  = "armadillo-4.200.0/src/**/*.{hpp,cpp}" , "armadillo-4.200.0/include/**/*.{hpp,cpp}"
+  s.source_files  = "armadillo-5.200.2/src/**/*.{hpp,cpp}" , "armadillo-5.200.2/include/**/*.{hpp,cpp}"
     
-  s.header_mappings_dir = 'armadillo-4.200.0/include/'
+  s.header_mappings_dir = 'armadillo-5.200.2/include/'
   #s.exclude_files = "Classes/Exclude"
 
-  s.public_header_files = "./armadillo-4.200.0/include/**/*.{hpp,cpp}"
+  s.public_header_files = "./armadillo-5.200.2/include/**/*.{hpp,cpp}"
 
 
   # ――― Resources ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
